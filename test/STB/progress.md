@@ -32,9 +32,13 @@
 <br/>
 
 ## 1. Satellite Data Simulator (SDS)
+
 Satellite Data Simlation Core and Subsystem Data Simulator.
+
 STB의 핵심! 42Sim 제외..
+
 버스의 각 로직 모듈들을 모사해주는 subsystem data simulator와 이들을 연결해주는 satellite data Simlation core로 이루어짐.
+
 
  - ## 1.1. Satellite Data Model / Core
 

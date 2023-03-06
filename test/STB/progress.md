@@ -79,7 +79,7 @@
     
     <table style="border: 2px;">
         <tr>
-            <td width="100"> Subsystem </td>
+            <td width="80"> Subsystem </td>
             <td width="150"> Component </td>
             <td width="320"> Items </td>
             <td width="130"> Progress </td>
@@ -103,7 +103,7 @@
 
     <table style="border: 2px;">
         <tr>
-            <td width="100"> Subsystem </td>
+            <td width="80"> Subsystem </td>
             <td width="150"> Component </td>
             <td width="320"> Items </td>
             <td width="130"> Progress </td>
@@ -170,7 +170,7 @@
 
     <table style="border: 2px;">
         <tr>
-            <td width="100"> Subsystem </td>
+            <td width="80"> Subsystem </td>
             <td width="150"> Component </td>
             <td width="320"> Items </td>
             <td width="130"> Progress </td>
@@ -220,7 +220,7 @@
 
     <table style="border: 2px;">
         <tr>
-            <td width="100"> Subsystem </td>
+            <td width="80"> Subsystem </td>
             <td width="150"> Component </td>
             <td width="320"> Items </td>
             <td width="130"> Progress </td>
@@ -248,7 +248,7 @@
 
     <table style="border: 2px;">
         <tr>
-            <td width="100"> Subsystem </td>
+            <td width="80"> Subsystem </td>
             <td width="150"> Component </td>
             <td width="320"> Items </td>
             <td width="130"> Progress </td>
@@ -276,7 +276,7 @@
 
     <table style="border: 2px;">
         <tr>
-            <td width="100"> Subsystem </td>
+            <td width="80"> Subsystem </td>
             <td width="150"> Component </td>
             <td width="320"> Items </td>
             <td width="130"> Progress </td>
@@ -298,7 +298,7 @@
         </tr>
         </tr><tr>
             <td> Polcube 미션 데이터 수신 기능 </td>
-            <td> <img src=https://progress-bar.dev/70/?title=Progress> </td>
+            <td> <img src=https://progress-bar.dev/90/?title=Progress> </td>
             <td> 해당 당담자와 테스트 필요 </td>
         </tr><tr>
             <td> OBS 미션 데이터 수신 기능 </td>
@@ -307,23 +307,27 @@
         </tr>
         </tr><tr>
             <td> 미션 데이터 수신시 세션별 관리 기능 </td>
-            <td> <img src=https://progress-bar.dev/70/?title=Progress> </td>
-            <td> 간소화 된 기능으로 구현, Flow에 지장 없는지 확인 필요 </td>
+            <td> <img src=https://progress-bar.dev/90/?title=Progress> </td>
+            <td> 1. 간소화 된 기능으로 구현 <br/> 
+            2. Flow에 지장 없는지 확인 및 테스트 필요 </td>
         </tr>
         </tr><tr>
             <td> 미션 데이터 수신시 CRC Error 생성 기능 </td>
-             <td> <img src=https://progress-bar.dev/70/?title=Progress> </td>
-            <td> 간소화 된 기능으로 구현, Flow에 지장 없는지 확인 필요 </td>
+             <td> <img src=https://progress-bar.dev/90/?title=Progress> </td>
+             <td> 1. 간소화 된 기능으로 구현 <br/> 
+            2. Flow에 지장 없는지 확인 및 테스트 필요 </td>
         </tr>
         </tr><tr>
             <td> AOS TF 전송시 TF List 관리 기능 </td>
-             <td> <img src=https://progress-bar.dev/70/?title=Progress> </td>
-            <td> 간소화 된 기능으로 구현, Flow에 지장 없는지 확인 필요 </td>
+             <td> <img src=https://progress-bar.dev/90/?title=Progress> </td>
+            <td> 1. 간소화 된 기능으로 구현 <br/> 
+            2. Flow에 지장 없는지 확인 및 테스트 필요 </td>
         </tr>
         </tr><tr>
             <td> AOS TF 송신 데이터 EWC27 로 전달 기능 기능 </td>
-            <td> <img src=https://progress-bar.dev/70/?title=Progress> </td>
-            <td> 간소화 된 기능으로 구현 Flow에 지장 없는지 확인 필요 </td>
+            <td> <img src=https://progress-bar.dev/90/?title=Progress> </td>
+            <td> 1. 간소화 된 기능으로 구현 <br/> 
+            2. Flow에 지장 없는지 확인 및 테스트 필요 </td>
         </tr>
         </tr><tr>
             <td> 미션 데이터 재 수신 기능 </td>

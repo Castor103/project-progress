@@ -89,7 +89,8 @@
             <img src=https://img.shields.io/badge/AOCS-1f0000?style=for-the-badge>
             </td>
         </tr><tr>
-            <td rowspan="100"> <img src=https://img.shields.io/badge/XACT50-gray> <img src=https://img.shields.io/badge/Test-purple> <br/>
+            <td rowspan="100"> <img src=https://img.shields.io/badge/XACT50-gray> <br/>
+            <img src=https://img.shields.io/badge/Test-purple> <br/>
             </td>
         </tr><tr>
             <td>각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
@@ -113,7 +114,8 @@
             <img src=https://img.shields.io/badge/EPS-1f0000?style=for-the-badge>
             </td>
         </tr><tr>
-            <td rowspan="4"> <img src=https://img.shields.io/badge/BPX-gray> <img src=https://img.shields.io/badge/Test-purple> </td>
+            <td rowspan="4"> <img src=https://img.shields.io/badge/BPX-gray> <br/>
+            <img src=https://img.shields.io/badge/Test-purple> </td>
         </tr><tr>
             <td>각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
             <td> <img src=https://progress-bar.dev/100/?title=Test&color=831083> </td>
@@ -128,7 +130,8 @@
             <td/>
         </tr>
         </tr><tr>
-            <td rowspan="3"> <img src=https://img.shields.io/badge/ACU-gray> <img src=https://img.shields.io/badge/Test-purple> </td>
+            <td rowspan="3"> <img src=https://img.shields.io/badge/ACU-gray> <br/>
+            <img src=https://img.shields.io/badge/Test-purple> </td>
         </tr><tr>
             <td>각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
             <td> <img src=https://progress-bar.dev/100/?title=Test&color=831083> </td>
@@ -138,7 +141,8 @@
             <td> <img src=https://progress-bar.dev/100/?title=Test&color=831083> </td>
             <td> (자체확인) 자체테스트를 통한 확인 튜닝 필요 </td>
         </tr><tr>
-            <td rowspan="4"> <img src=https://img.shields.io/badge/PDU-gray> <img src=https://img.shields.io/badge/-Test-purple> </td>
+            <td rowspan="4"> <img src=https://img.shields.io/badge/PDU-gray> <br/>
+            <img src=https://img.shields.io/badge/-Test-purple> </td>
         </tr><tr>
             <td>각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
             <td> <img src=https://img.shields.io/badge/-Done-green> </td>
@@ -149,10 +153,11 @@
             <td/>
         </tr><tr>
             <td> PDU 스위치 동작에 따른 컴포넌트 On/Off 에 따른 전류 연동 기능 </td>
-            <td> <img src=https://progress-bar.dev/100/?title=Test&color=831083>  </td>
+            <td> <img src=https://progress-bar.dev/100/?title=Test&color=831083> </td>
             <td> FSW와 연결 테스트하면서 지속 테스트 중 </td>
         </tr><tr>
-            <td rowspan="4"> <img src=https://img.shields.io/badge/Dock-gray> <img src=https://img.shields.io/badge/Test-purple> </td>
+            <td rowspan="4"> <img src=https://img.shields.io/badge/Dock-gray> <br/>
+            <img src=https://img.shields.io/badge/Test-purple> </td>
         </tr><tr>
             <td>각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
             <td> <img src=https://img.shields.io/badge/-Done-green> </td>
@@ -180,7 +185,7 @@
             <img src=https://img.shields.io/badge/IFB-1f0000?style=for-the-badge>
             </td>
         </tr><tr>
-            <td rowspan="4"> <img src=https://img.shields.io/badge/IFB_BSS-gray> <img src=https://img.shields.io/badge/Test-purple> </td>
+            <td rowspan="4"> <img src=https://img.shields.io/badge/IFB_BSS-gray> <br/><img src=https://img.shields.io/badge/Test-purple> </td>
         </tr><tr>
             <td> GPIO Set/Get 요청에 대한 처리 및 응답 기능 </td>
             <td> <img src=https://img.shields.io/badge/-Done-green> </td>
@@ -196,7 +201,7 @@
             <td> FSW와 연결 테스트하면서 수치 조정 중</td>
         </tr>
         </tr><tr>
-            <td rowspan="5"> <img src=https://img.shields.io/badge/IFB_OBS1-gray> <img src=https://img.shields.io/badge/Test-purple> </td>
+            <td rowspan="5"> <img src=https://img.shields.io/badge/IFB_OBS1-gray> <br/><img src=https://img.shields.io/badge/Test-purple> </td>
         </tr><tr>
             <td> GPIO Set/Get 요청에 대한 처리 및 응답 기능 </td>
             <td> <img src=https://img.shields.io/badge/-Done-green></td>
@@ -230,7 +235,8 @@
             <img src=https://img.shields.io/badge/SP-1f0000?style=for-the-badge>
             </td>
         </tr><tr>
-            <td rowspan="4"> <img src=https://img.shields.io/badge/SP-gray> <img src=https://img.shields.io/badge/-Done-green> </td>
+            <td rowspan="4"> <img src=https://img.shields.io/badge/SP-gray> <br/>
+            <img src=https://img.shields.io/badge/-Done-green> </td>
         </tr><tr>
             <td> 각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
             <td> <img src=https://img.shields.io/badge/-Done-green></td>
@@ -256,7 +262,7 @@
         </tr><tr>
             <td rowspan="100"> <img src=https://img.shields.io/badge/CS-1f0000?style=for-the-badge> </td>
         </tr><tr>
-            <td rowspan="2"> <img src=https://img.shields.io/badge/AX2150-gray> <img src=https://img.shields.io/badge/-Done-green> </td>
+            <td rowspan="2"> <img src=https://img.shields.io/badge/AX2150-gray> <br/> <img src=https://img.shields.io/badge/-Done-green> </td>
         </tr><tr>
             <td> 각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
             <td> <img src=https://img.shields.io/badge/-Done-green> </td>
@@ -286,7 +292,7 @@
             <img src=https://img.shields.io/badge/PAYLOAD-1f0000?style=for-the-badge>
             </td>
         </tr><tr>
-            <td rowspan="11"> <img src=https://img.shields.io/badge/PDHS-gray> <img src=https://img.shields.io/badge/-Progress-skyblue> </td>
+            <td rowspan="11"> <img src=https://img.shields.io/badge/PDHS-gray> <img src=https://progress-bar.dev/56/?title=Progress> </td>
         </tr><tr>
             <td> 각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
             <td> <img src=https://progress-bar.dev/100/?title=Test&color=831083> </td>

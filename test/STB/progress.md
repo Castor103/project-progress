@@ -77,7 +77,7 @@
 
     * ## 2.1.2. Subsystem Data Simulation Module / Logic Module
     
-    <table style="border: 2px;">
+    <table style="border: 2px; font-size: 16.5px;">
         <tr>
             <td width="80"> Subsystem </td>
             <td width="150"> Component </td>
@@ -292,7 +292,7 @@
             <img src=https://img.shields.io/badge/PAYLOAD-1f0000?style=for-the-badge>
             </td>
         </tr><tr>
-            <td rowspan="11"> <img src=https://img.shields.io/badge/PDHS-gray> <img src=https://progress-bar.dev/56/?title=Progress> </td>
+            <td rowspan="11"> <img src=https://img.shields.io/badge/PDHS-gray> <img src=https://progress-bar.dev/61/?title=Progress> </td>
         </tr><tr>
             <td> 각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
             <td> <img src=https://progress-bar.dev/100/?title=Test&color=831083> </td>
@@ -304,24 +304,22 @@
         </tr>
         </tr><tr>
             <td> Polcube 미션 데이터 수신 기능 </td>
-            <td> <img src=https://progress-bar.dev/90/?title=Progress> </td>
+            <td> <img src=https://progress-bar.dev/100/?title=Test&color=831083> </td>
             <td> 해당 당담자와 테스트 필요 </td>
         </tr><tr>
-            <td> OBS 미션 데이터 수신 기능 </td>
+            <td> OBC 미션 데이터 수신 기능 </td>
             <td> <img src=https://img.shields.io/badge/-Wait-yellow> </td>
-            <td> 포멧 및 구현 방향에 대한 논의 필요 </td>
+            <td> 1. 구현 논의중. <br/> 2. virtual comport 기능 확인중 </td>
         </tr>
         </tr><tr>
             <td> 미션 데이터 수신시 세션별 관리 기능 </td>
-            <td> <img src=https://progress-bar.dev/90/?title=Progress> </td>
-            <td> 1. 간소화 된 기능으로 구현 <br/> 
-            2. Flow에 지장 없는지 확인 및 테스트 필요 </td>
+            <td> <img src=https://progress-bar.dev/100/?title=Test&color=831083> </td>
+            <td> FSW와 지속적인 테스트 필요 </td>
         </tr>
         </tr><tr>
             <td> 미션 데이터 수신시 CRC Error 생성 기능 </td>
-             <td> <img src=https://progress-bar.dev/90/?title=Progress> </td>
-             <td> 1. 간소화 된 기능으로 구현 <br/> 
-            2. Flow에 지장 없는지 확인 및 테스트 필요 </td>
+             <td> <img src=https://progress-bar.dev/100/?title=Test&color=831083> </td>
+             <td> 1FSW와 지속적인 테스트 필요 </td>
         </tr>
         </tr><tr>
             <td> AOS TF 전송시 TF List 관리 기능 </td>
@@ -337,23 +335,31 @@
         </tr>
         </tr><tr>
             <td> 미션 데이터 재 수신 기능 </td>
-            <td> <img src=https://img.shields.io/badge/-Wait-yellow> </td>
-            <td> 논의 필요 </td>
+            <td> <img src=https://progress-bar.dev/10/?title=Progress> </td>
+            <td> </td>
         </tr>
         </tr><tr>
             <td> AOS TF 재 송신 기능 </td>
-            <td> <img src=https://img.shields.io/badge/-Wait-yellow> </td>
-            <td> 논의 필요 </td>
+            <td> <img src=https://progress-bar.dev/10/?title=Progress> </td>
+            <td> </td>
         </tr>
         </tr><tr>
-            <td rowspan="3"> <img src=https://img.shields.io/badge/MS200-gray> <img src=https://progress-bar.dev/50/?title=Progress> </td>
+            <td rowspan="5"> <img src=https://img.shields.io/badge/MS200-gray> <img src=https://progress-bar.dev/72/?title=Progress> </td>
         </tr><tr>
-           <td> 각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
+            <td> 각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
             <td> <img src=https://progress-bar.dev/90/?title=Progress> </td>
             <td> FSW와 지속적인 테스트 필요 </td>
-        </tr>
+        </tr><tr>
+            <td> 세션 기본 관리 (Open/Active/Close) 기능 </td>
+            <td> <img src=https://progress-bar.dev/80/?title=Progress> </td>
+            <td> Polcube->PDHS 미션데이터 기반으로 작업 중. </td>
+        </tr><tr>
+            <td> Snapshot/Linescan 시 생성 데이터 용량 계산 및 파라미터 검증 기능  </td>
+            <td> <img src=https://progress-bar.dev/90/?title=Progress> </td>
+            <td> Polcube->PDHS 미션데이터 기반으로 작업 중. </td>
+        </tr><tr>
             <td> MS200->PDHS 미션 데이터 교환시 해당 기능 </td>
-            <td> <img src=https://progress-bar.dev/10/?title=Progress> </td>
+            <td> <img src=https://progress-bar.dev/30/?title=Progress> </td>
             <td> Polcube->PDHS 미션데이터 기반으로 작업 중. </td>
         </tr>
         </tr><tr>

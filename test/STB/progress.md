@@ -292,14 +292,14 @@
             <img src=https://img.shields.io/badge/PAYLOAD-1f0000?style=for-the-badge>
             </td>
         </tr><tr>
-            <td rowspan="11"> <img src=https://img.shields.io/badge/PDHS-gray> <img src=https://progress-bar.dev/61/?title=Progress> </td>
+            <td rowspan="11"> <img src=https://img.shields.io/badge/PDHS-gray> <img src=https://progress-bar.dev/84/?title=Progress> </td>
         </tr><tr>
             <td> 각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
             <td> <img src=https://progress-bar.dev/100/?title=Test&color=831083> </td>
             <td> FSW와 지속적인 테스트 필요 </td>
         </tr>
             <td> MS200 미션 데이터 수신 기능</td>
-            <td> <img src=https://progress-bar.dev/10/?title=Progress> </td>
+            <td> <img src=https://progress-bar.dev/70/?title=Progress> </td>
             <td> Polcube 미션 데이터와 중복되는 부분이 있지만 특성에 따른 부분 확인 필요 </td>
         </tr>
         </tr><tr>
@@ -308,8 +308,13 @@
             <td> 해당 당담자와 테스트 필요 </td>
         </tr><tr>
             <td> OBC 미션 데이터 수신 기능 </td>
-            <td> <img src=https://img.shields.io/badge/-Wait-yellow> </td>
-            <td> 1. 구현 논의중. <br/> 2. virtual comport 기능 확인중 </td>
+            <td> <img src=https://progress-bar.dev/50/?title=Progress> </td>
+            <td> 
+            1. 구현 논의중. <br/> 
+            2. virtual comport 기능 확인중 <br/> 
+            3. vcomport rx 적용
+            4. 파싱 포멧 ?
+            </td>
         </tr>
         </tr><tr>
             <td> 미션 데이터 수신시 세션별 관리 기능 </td>
@@ -335,16 +340,16 @@
         </tr>
         </tr><tr>
             <td> 미션 데이터 재 수신 기능 </td>
-            <td> <img src=https://progress-bar.dev/10/?title=Progress> </td>
+            <td> <img src=https://progress-bar.dev/70/?title=Progress> </td>
             <td> </td>
         </tr>
         </tr><tr>
             <td> AOS TF 재 송신 기능 </td>
-            <td> <img src=https://progress-bar.dev/10/?title=Progress> </td>
+            <td> <img src=https://progress-bar.dev/70/?title=Progress> </td>
             <td> </td>
         </tr>
         </tr><tr>
-            <td rowspan="5"> <img src=https://img.shields.io/badge/MS200-gray> <img src=https://progress-bar.dev/72/?title=Progress> </td>
+            <td rowspan="5"> <img src=https://img.shields.io/badge/MS200-gray> <img src=https://progress-bar.dev/82/?title=Progress> </td>
         </tr><tr>
             <td> 각 TC/TM에 따른 반환 포멧 모사 기능 (더미 데이터으로 전달) </td>
             <td> <img src=https://progress-bar.dev/90/?title=Progress> </td>
@@ -359,7 +364,7 @@
             <td> Polcube->PDHS 미션데이터 기반으로 작업 중. </td>
         </tr><tr>
             <td> MS200->PDHS 미션 데이터 교환시 해당 기능 </td>
-            <td> <img src=https://progress-bar.dev/30/?title=Progress> </td>
+            <td> <img src=https://progress-bar.dev/70/?title=Progress> </td>
             <td> Polcube->PDHS 미션데이터 기반으로 작업 중. </td>
         </tr>
         </tr><tr>
@@ -385,6 +390,9 @@
             <td> 간소화 된 기능으로 구현, Flow에 지장 없는지 확인 필요 </td>
         </tr>
     </table>
+
+* STB 전체적으로 리펙토링 해야할 것들
+        - [ ] 기존 enum 형태를 enum class 로 모두 교체
 
 <br/>
 
